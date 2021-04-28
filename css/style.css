@@ -1,0 +1,78 @@
+body {
+	margin: 0;
+}
+ul {
+	list-style: none;
+}
+.right-bar {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: #f1faee;
+}
+.removeButton:hover {
+	background-color: rgb(90, 237, 209);
+}
+.removeButton {
+	border: none;
+	width: 30px;
+	height: 30px;
+	border-radius: 20px;
+	background-color: rgb(68, 184, 162);
+	margin-right: 5%;
+	float: right;
+}
+.todo-input {
+	position: absolute;
+	font-family: calibri;
+	font-size: 25px;
+	outline: none;
+	border: none;
+	border-radius: 100px;
+	width: 1000px;
+	height: 50px;
+	margin-top: 5%;
+	margin-left: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	background-color: #a8dadc;
+}
+.add-button {
+	font-size: 30px;
+	outline: none;
+	border: none;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-left: 5%;
+	margin-top: 5%;
+	color: #f1faee;
+	background-color: #a8dadc;
+}
+.title {
+	margin-left: 5%;
+	margin-top: 2%;
+	font-family: calibri;
+	font-size: 25px;
+	color: #1d3557;
+}
+.add-button:hover {
+	background-color: #457b9d;
+}
+.listItems:hover {
+	border-radius: 20px;
+	background-color: #a8dadc;
+}
+.listItems {
+	font-family: calibri;
+	font-size: 20px;
+	color: #1d3557;
+	padding: 1% 0% 1% 5%;
+}
+.listItem:hover {
+	color: red;
+}
+.addButton {
+	width: 100px;
+	height: 100px;
+}
